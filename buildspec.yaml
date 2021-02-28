@@ -5,7 +5,15 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
+<<<<<<< HEAD
 
 artifacts:
    files:
      - '**/*
+||||||| 2bb79db
+=======
+
+artifacts:
+   files:
+     - '**/*'
+>>>>>>> master
