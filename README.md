@@ -1,4 +1,4 @@
-# Proof Of Concept File Deliverable
+# Proof Of Concept File Deliverables
 The Required deliverables for this assessment are provided below. 
 
 # Assumptions For POC
