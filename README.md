@@ -6,14 +6,14 @@ The Required deliverables for this assessment are provided below.
 - Iac method implemented for various AWS resources is cloud formation.
 - Code Editor used is Visual Studio Code.
 - Version control tool used was a git.
-- Assuming that the structured and unstructured data in an on-premise comes from Database management systems or data sources like My SQL, Microsoft SQL Server, Mongo DB.
+- Assuming that the structured and unstructured data in  on-premise and comes from the Database management systems or data sources like My SQL, Microsoft SQL Server, Mongo DB.
 - Assuming AWS Lambda function as a data ingestion resource.
 - Assuming AWS glue is used for ETL and S3 bucket for storage.
 - Assuming AWS redshift to be used for data warehousing.
 -  Assuming BI application like Power BI is used for the Analytics process. 
 - Assuming we have a batch or historical data.
 
-# Data Architecture Diagram for POC
+# Data Architecture/Infrastructure Diagram to Support Customer POC
 - Based on the above assumptions, `Data Architecture Diagram for POC` was constructed and the diagram is shown below.
 - The Data Architecture below is constructed by keeping in mind the customer requirements for the proof of concept.
 
@@ -47,7 +47,7 @@ The Required deliverables for this assessment are provided below.
 
 
 
-# Steps for building CI/CD pipeline using AWS Cloud Formation Platform Example:
+# Steps For Building CI/CD pipeline using AWS Cloud Formation Platform Example:
 ## Step 1 Generating Personal Access Token in Github
 * The personal authentication token is generated to access Github API.
 * We will be creating webhooks in the repository, hence we need to select the `repo` and `admin: repo_hook` for permission.
