@@ -1,4 +1,4 @@
-# Proof Of Concept File
+# Proof Of Concept File Deliverable
 The Required deliverables for this assessment are provided below. 
 
 # Assumptions For POC
@@ -102,7 +102,7 @@ Once the commit is made run the command `git push origin master` to push the fil
 - - Once the stack is updated we can check the code pipeline in the AWS code pipeline. 
 - -  In my case, the pipeline was successfully created and can be seen in the figure below. 
 
- ![Iac7 image](AWS/pipline.JPG)
+ ![Iac7 image](AWS/codepipeline.JPG)
 
 - - Next, we need to commit the changes in the pipeline.yaml file and update the changes on the GITHUB repo. 
 - - For this, we can pull the files from GITHUB master and then update and file and then Push the files back to develop branch using the git commands mentioned above, and then we can squash and merge.
