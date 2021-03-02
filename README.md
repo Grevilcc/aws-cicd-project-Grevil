@@ -102,7 +102,7 @@ Once the commit is made run the command `git push origin master` to push the fil
 - - Once the stack is updated we can check the code pipeline in the AWS code pipeline. 
 - -  In my case, the pipeline was successfully created and can be seen in the figure below. 
 
-![Iac6 image](AWS/pipline.JPG)
+ ![Iac7 image](AWS/pipline.JPG)
 
 - - Next, we need to commit the changes in the pipeline.yaml file and update the changes on the GITHUB repo. 
 - - For this, we can pull the files from GITHUB master and then update and file and then Push the files back to develop branch using the git commands mentioned above, and then we can squash and merge.
@@ -180,7 +180,7 @@ of databases by parallel execution of one query on multiple CPUs.
 - Now create a Repo on Github give it a name in my case it's called `aws-cicd-project-Grevil`. 
 - Copy the URL from the repo and in the terminal use command `$ git remote add origin https://` followed by the URL. 
 - This will link our local directory to the Github repo. 
-- Finally, we need to push the files from the local machine to our Github repo using the command `$ git Push --set--upstream origin master`.
+- Finally, we need to push the files from the local machine to our Github repo using the command `$ git push --set--upstream origin master`.
 - You will see new files uploaded to the Github repo.
 - Finally, some important `$ git` commands:
  - -  `$ git add .`
